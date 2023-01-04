@@ -29,7 +29,7 @@ akbarvpnnnn="raw.githubusercontent.com/senowahyu62/scriptvps/main/shadowsocks"
 # Link Hosting Kalian Untuk Wireguard
 akbarvpnnnnn="raw.githubusercontent.com/senowahyu62/scriptvps/main/wireguard"
 # Link Hosting Kalian Untuk Xray
-akbarvpnnnnnn="raw.githubusercontent.com/senowahyu62/scriptvps/main/xray"
+akbarvpnnnnnn="raw.githubusercontent.com/lihin929/scriptvps/main/xray"
 # Link Hosting Kalian Untuk Ipsec
 akbarvpnnnnnnn="raw.githubusercontent.com/senowahyu62/scriptvps/main/ipsec"
 # Link Hosting Kalian Untuk Backup
@@ -54,7 +54,7 @@ mkdir /var/lib/akbarstorevpn;
 echo "IP=" >> /var/lib/akbarstorevpn/ipvps.conf
 wget https://${akbarvpn}/cf.sh && chmod +x cf.sh && ./cf.sh
 #install v2ray
-wget https://${akbarvpnnnnnn}/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
+wget https://${akbarvpnnnnnn}/sl-xray.sh && chmod +x sl-xray.sh && screen -S xray ./sl-xray.sh
 #install ssh ovpn
 wget https://${akbarvpn}/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 wget https://${akbarvpnn}/sstp.sh && chmod +x sstp.sh && screen -S sstp ./sstp.sh
